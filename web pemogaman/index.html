@@ -3,16 +3,114 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Kelas Terbuka</title>
+    <title>recruitment</title>
+    <!-- inline css -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        logo{
+            width:100px;
+        }
+    </style>
     </head>
     <body>
-        <h1>Open Recruitment</h1>
-        <img src="logo/Silat Art.jpg" alt="">
-        <ul>
-            <li>Tentang Kami
-            </li>
-            <li>Kontak</li>
-            <li>Alamat</li>
-        </ul>
+        <!-- inline css -->
+        <div style="margin-top:100px;">
+            <!-- gambar -->
+            <nav>
+                <h1>Open Recruitment</h1>
+                <img src="logo/Silat Art.jpg" alt="logo">
+                <ul>
+                    <li><a href="link/tentangkami.html">Tentang Kami</a></li>
+                    <li><a href="link/kontak.html">Kontak</a></li>
+                    <li><a href="link/alamat.html">Alamat</a></li>
+                </ul>
+            </nav>
+
+        <!-- Info -->
+            <section>
+                <h2>Informasi Selengkapnya</h2>
+    
+        <!-- Tabel -->
+                <table border="2">
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Jam</th>
+                            <th colspan="2">Keterangan</th>
+                        </tr>
+                    </thead>
+    
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td rowspan="5">15.30</td>
+                            <td>Selasa</td>
+                            <td>Spande</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                       
+                            <td>Rabu</td>
+                            <td>SMPN 5</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                       
+                            <td>Kamis</td>
+                            <td>SMPN 2</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                        
+                            <td>Jumat</td>
+                            <td>SMKN 2</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                       
+                            <td>Sabtu</td>
+                            <td>Spande</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+        <!-- video -->
+            <section>
+                <video src="video/video.mp4" width="300" height="300" controls></video>
+            </section>
+            
+         <!-- audio -->
+            <section>
+                <audio src="audio/Aruma - Muak.mp3" controls></audio>
+            </section>
+
+        <!-- canvas -->
+            <section>
+                <canvas width="280" height="280"></canvas>
+            </section>
+
+         <!-- Form -->
+            <nav>
+                <h3>Data Diri Anda</h3>
+                <form action="">
+                    <input type="text" placeholder="Masukkan Nama">
+                    
+                    <label for="">Jurusan</label>
+                    <select name="" id="">
+                        <option value="1">RPL</option>
+                        <option value="2">DKV</option>
+                        <option value="3">AK</option>
+                        <option value="4">LPB</option>
+                        <option value="5">BD</option>
+                        <option value="6">MP</option>
+                    </select>
+                    
+                    <input type="submit">
+                </form>
+            </nav>
+        </div>
+        
+        
     </body>
 </html>
